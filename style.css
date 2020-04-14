@@ -1,0 +1,87 @@
+.doboz{
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: 'Open Sans', sans-serif;
+  position:relative;
+}
+
+#email{
+  display:block;
+  width:100%;
+  height:30px;
+  padding:3px;
+  box-sizing: border-box;
+  border: thin solid #cfcfcf;
+  border-radius:3px;
+}
+
+button{
+  display:block;
+  width:100%;
+  background:#3cb878;
+  border:none;
+  color:white;
+  height: 30px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.news{
+  border: thin solid #cfcfcf;
+  border-radius:3px;
+  padding:10px;
+  color:gray;
+}
+
+.news h3{
+  margin-top:0px;
+  color:green;
+}
+
+#terms{
+  position:relative;
+  top:2px;
+}
+
+.closeX{
+  position:absolute;
+  top:305px;
+  right:5px;
+  cursor:pointer;
+}
+
+#QC{
+  background-color:#3cb878;
+  height:100px;
+  width:100px;
+  border-radius:50%;
+  font-size:70px;
+  color:white;
+  text-align:center;
+  
+  position:fixed;
+  bottom:10px;
+  right:10px;
+}
+
+.card{
+  color:white;
+  background-color:#3cb878;
+  width:180px;
+  text-align:center;
+  padding-top: 20px;
+  padding-bottom: 6px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 5px 3px grey; 
+}
+
+.cardH{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:10px;
+}
+
+#QC:hover{
+  background-color:purple;
+}
